@@ -1,6 +1,5 @@
-# first-demo
-This is a demo for Git &amp; Github class.
 # Teacher
-Shradha khapra
+Shradha Khapra
+
 # Student
-Bhumika mourya
+Bhumika Mourya
