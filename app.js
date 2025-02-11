@@ -16,13 +16,13 @@ document.addEventListener("keypress", function () {  // to start the game
         levelUp();
     }
 });
-function btnflash(btn) {    //btn press hone pr flash hone ke liye
+function btnflash(btn) {    
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
     }, 200);
 }
-function userflash(btn) {   // user ke click karne pr flash hone ke liye
+function userflash(btn) {   
     btn.classList.add("userflash");
     setTimeout(function () {
         btn.classList.remove("userflash");
@@ -35,7 +35,7 @@ function levelUp() { // level ko aage badhane  ke liye
     level++;
     h2.innerText = `Level ${level}`;
 
-    let randIdx = Math.floor(Math.random() * 3); //random idx, color, btn generate karne ke liye
+    let randIdx = Math.floor(Math.random() * 3); 
     let randColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     // console.log(` idx : ${randIdx} , color : ${randColor} , btn : ${randBtn}`);
