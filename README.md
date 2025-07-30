@@ -1,5 +1,1 @@
-# Teacher
-Shradha Khapra
-
-# Student
-Bhumika Mourya
+#Simon Says Game
